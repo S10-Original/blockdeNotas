@@ -1,0 +1,84 @@
+*{
+    background-color: rgb(0, 0, 158);
+    color: aliceblue;
+    margin: 10px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.formhtml {
+    justify-content: center;
+    width: 75%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin: 0 auto;
+}
+
+.formphp {
+    justify-content: center;
+    width: 75%;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 0 auto;
+}
+
+.fila{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.columna{
+    text-align: center;
+    border: 5px solid #dddddd;
+    background-color: none;
+}
+
+.filaphp{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.columnaphp{
+    text-align: center;
+    border: 5px solid #dddddd;
+    background-color: none;
+}
+
+input{
+    background-color: #010044;
+    font-size: large;
+}
+
+label{
+    font-size: larger;
+}
+
+.index{
+    width: 88%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.crearTXTinputs{
+    width: 90%;
+    margin: 2% 5%;
+    font-size: larger;
+}
+
+.seleccionTXTinputs{
+    width: 90%;
+    margin: 2% 5%;
+    font-size: larger;
+}
+
+textarea{
+    background-color: #010044;
+    width: 90%;
+    font-size: large;
+    margin: 2% 5%;
+}
